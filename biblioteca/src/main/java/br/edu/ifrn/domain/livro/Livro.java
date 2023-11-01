@@ -46,4 +46,7 @@ public class Livro {
     @ManyToOne
     @JoinColumn(name = "autor_id")
     private Autor autor;
+
+    public void setAtivo(boolean b) {
+    }
 }
